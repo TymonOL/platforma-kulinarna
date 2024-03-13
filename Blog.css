@@ -3,3 +3,19 @@ body {
     background-image: radial-gradient(rgb(255, 0, 0), rgb(255, 238, 0));
   
 }
+.pasek {
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .pasek a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .pasek a:hover {
+    text-decoration: underline;
+  }
+  
