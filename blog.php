@@ -24,7 +24,7 @@
     <button type="submit">Szukaj</button>
     <br>
     <br>
-    <form action="submit.php" method="post">
+    <form action="submit.php" method="POST">
       <input type="text" name="title" placeholder="Tytuł">
       <br>
       <input type="text" name="description" placeholder="Opis">
@@ -90,9 +90,23 @@
 
   if ($conn->connect_error) {
     die("Połączenie nieudane: " . $conn->connect_error);
-  } else {
-    echo "połączenie udane!";
   }
+
+
+  // przygotowanie zapytania 
+  $sql = "SELECT * FROM przepisy";
+$result = $conn->query($sql);
+
+echo "<ol>";
+while ($row = $result->fetch_assoc()){
+    echo "<li>" . $row["tytul"] . "</li>";
+}
+echo "</ol>";
+
+
+
+
+  // zakończenie połączenia z DB
   $conn->close();
 
   ?>
