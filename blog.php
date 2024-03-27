@@ -88,7 +88,7 @@
     </form>
   </div>
   <a href="inne.html">Sprawdź Najlepsze Przepisy Miesiąca</a>
-  <button>Twoje Dodane Przepisy</button>
+<h2>Dodane Przepis:</h2>
   <?php
   $servername = "localhost"; // nazwa serwera (komputer lokalny to localhost)
   $username = "root"; // nazwa użytkownika bazy danych 
