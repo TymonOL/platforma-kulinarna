@@ -24,6 +24,7 @@
     <button type="submit">Szukaj</button>
     <br>
     <br>
+    <!-- formularz dodawania przepisów -->
     <form action="submit.php" method="POST">
       <input type="text" name="title" placeholder="Tytuł">
       <br>
