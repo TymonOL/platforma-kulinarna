@@ -23,24 +23,9 @@
     <input type="text" name="query" placeholder="Znajdź swój przepis">
     <button type="submit">Szukaj</button>
     <br>
-    <h3>Dodaj Swój Przepis :)</h3>
-    <!-- formularz dodawania przepisów -->
-    <form action="submit.php" method="POST">
-      <input type="text" name="title" placeholder="Tytuł">
-      <br>
-      <input type="text" name="Ingredients" placeholder="Składniki">
-      <br>
-      </button>
-      <input type="text" name="description" placeholder="Opis">
-</button>
-      <select name="category">
-        <option value="Breakfest">Śniadnia</option>
-        <option value="Lunch">Obiady</option>
-        <option value="Desser">Desery</option>
-      </select>
-      <button type="submit">Dodaj</button>
-    </form>
-  
+    <div class="button">
+        <a href="DodanePrzepisy.php"><button>Dodaj Przepis</button></a>
+    </div>
     <h2>Przpisy który wygrał ten tydzeń to przepis na spaghetti</h2>
     <img src="spaghetti.jpg" alt="spaghetti" width="700" height="450">
     <h2>Składniki</h2>
@@ -88,37 +73,7 @@
     </form>
   </div>
   <a href="inne.html">Sprawdź Najlepsze Przepisy Miesiąca</a>
-<h2>Dodane Przepis:</h2>
-  <?php
-  $servername = "localhost"; // nazwa serwera (komputer lokalny to localhost)
-  $username = "root"; // nazwa użytkownika bazy danych 
-  $password = ""; // hasło do bazy danych
-  $dbname = "platforma_kulinarna"; // nazwa bazy danych 
 
-  $conn = new mysqli($servername, $username, $password, $dbname);
-
-  if ($conn->connect_error) {
-    die("Połączenie nieudane: " . $conn->connect_error);
-  }
-
-
-  // przygotowanie zapytania 
-  $sql = "SELECT * FROM przepisy";
-$result = $conn->query($sql);
-
-echo "<ol>";
-while ($row = $result->fetch_assoc()){
-    echo "<li>" . $row["tytul"] . "</li>";
-}
-echo "</ol>";
-
-
-
-
-  // zakończenie połączenia z DB
-  $conn->close();
-
-  ?>
 </body>
 
 </html>
