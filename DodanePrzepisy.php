@@ -11,7 +11,7 @@
 <body>
     <header class="flex-container topnav">
         <!-- Logp strony -->
-        <img src="Alegro.jpg" id="logo" alt="Alegro">
+        <img src="Jedzenie.jpg" id="logo" alt="Przepisy">
         <!-- wyszukiwanie bazy danych -->
         <form action="search.php" method="get">
             <!-- pole wyszukiwania -->
