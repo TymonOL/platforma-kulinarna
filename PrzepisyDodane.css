@@ -3,8 +3,8 @@ html body {
 }
 
 #logo {
-width: 350px;
-height: 200px;
+width: 550px;
+height: 450px;
 }
 
 #cart {
@@ -28,11 +28,12 @@ height: 200px;
 }
 .card {
     background-color: burlywood;
- width: 15rem;
- height: 15rem;
+ width: 20rem;
+ height: 20rem;
 }
 .text-center {
     justify-content: center;
-  
-
+}
+body{
+    background-color: pink;
 }

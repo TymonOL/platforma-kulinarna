@@ -27,13 +27,7 @@
     </header>
 
 <main class="flex-container-wrap">
-    <div class="card">
-        <h3>Nazwa Oferty</h3>
-        <!-- cena -->
-        <p>cena: 100zł</p>
-    </div>
-   
-
+    
 
 
 

@@ -27,7 +27,9 @@
         <a href="DodanePrzepisy.php"><button>Dodaj Przepis</button></a>
     </div>
     <h2>Przpisy który wygrał ten tydzeń to przepis na spaghetti</h2>
-    <img src="spaghetti.jpg" alt="spaghetti" width="700" height="450">
+    <div class="round-img">
+    <img src="spaghetti.jpg" alt="Zaokrąglone zdjęcie" width="700" height="450">
+    </div>
     <h2>Składniki</h2>
     <li>300 g mięsa mielonego (może być wieprzowe lub wołowe)</li>
     <li>300 g sosu pomidorowego (ewentualnie puszka pomidorów lub kupny sos – passata pomidorowa)</li>

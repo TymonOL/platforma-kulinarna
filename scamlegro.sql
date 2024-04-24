@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 24 Kwi 2024, 12:05
+-- Czas generowania: 24 Kwi 2024, 13:23
 -- Wersja serwera: 10.4.24-MariaDB
 -- Wersja PHP: 8.0.19
 
@@ -38,17 +38,7 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`ID`, `name`, `Opis`) VALUES
-(1, 'Pilka nożna', '151.00'),
-(2, 'Pilka nożna', '151.00'),
-(3, 'Persil Power Caps Kapsułki do Prania', '80.00'),
-(4, 'Green cola', '60.00'),
-(5, 'SYROP KONCENTRAT SODASTREAM ', '59.00'),
-(6, 'Roomba', '1979.00'),
-(7, 'Karta Graficzna RTX 4090', '8.40'),
-(8, 'fnxvnb', '546.00'),
-(9, 'Roomba', '2000.00'),
-(10, 'Złote Jaja', '1000000.00'),
-(11, 'Lasange', '34646654.00');
+(13, 'Spaghetti', '300 g mięsa mielonego (może być wieprzowe lub wołowe) 300 g sosu pomidorowego (ewentualnie puszka pomidorów lub kupny sos – passata pomidorowa) 2 łyżki koncentratu pomidorowego 300 g makaronu dobrej jakości (waga suchego w opakowaniu przed ugotowanie');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -68,7 +58,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT dla tabeli `product`
 --
 ALTER TABLE `product`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
