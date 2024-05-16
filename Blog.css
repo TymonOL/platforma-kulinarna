@@ -1,7 +1,6 @@
 body {
-   
+   height: 95vh;
     background-image: radial-gradient(rgb(255, 0, 0), rgb(255, 238, 0));
-  
 }
 .pasek {
     background-color: orangered;

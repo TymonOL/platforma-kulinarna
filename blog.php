@@ -10,6 +10,10 @@
 
 <body>
   <h1>Na Naszej Stronie Znajdziesz Przepisy Na Każdą Okazję</h1>
+  <section></section>
+  <div style="text-align: center;">
+  <h2>Najczęściej wyszukiwane Przepisy</h2>
+  </div>
   <div class="pasek">
     <a href="inne.html">Przepisy Miesiąca///</a>
     <a href="curry.html">Kurczak Curry///</a>
@@ -17,7 +21,7 @@
     <a href="Ziemniaki słodkie Hasselback.html">Ziemniaki słodkie Hasselback///</a>
     <a href="blog-ziemniaki.html">Pączki z Ziemniakami///</a>
   </div>
-
+ 
   <section></section>
   <div class="search-bar">
     <input type="text" name="query" placeholder="Znajdź swój przepis">
