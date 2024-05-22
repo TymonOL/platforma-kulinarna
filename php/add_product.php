@@ -9,7 +9,7 @@ $opis = $_POST["opis"];
 $sql = "INSERT INTO `product` (`name`, `opis`) VALUES ('$title','$opis');";
 
 // sql wykonanie sql
-if($conn->query($sql) === TRUE) {
+if ($conn->query($sql) === TRUE) {
     echo "Dodałeś ogłoszenie";
 } else {
     echo "Coś poszło nie tak :/";
