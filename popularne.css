@@ -19,5 +19,17 @@ body {
   
   .button:active {
     background-color: red;
+  }  .round-img {
+ border-radius: 50%; }
+  .round-img {
+    border-radius: 65%; 
+    overflow: hidden; 
+    width: 800px; 
+    height: 650px; 
   }
-  .round-img { border-radius: 50%; }
+  img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
